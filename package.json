@@ -1,0 +1,38 @@
+{
+  "name": "dummy",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://meyappan-v.github.io/talkToAI_UI_Screens",
+  "scripts": {
+    "deploy": "next build && next export -o ./docs && touch ./docs/.nojekyll",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.16",
+    "@mui/material": "^5.14.16",
+    "mui": "^0.0.1",
+    "next": "14.0.1",
+    "node-sass": "^9.0.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "sass": "^1.69.5",
+    "tailwind": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.1",
+    "gh-pages": "^6.0.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
