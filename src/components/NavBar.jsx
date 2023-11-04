@@ -7,10 +7,6 @@ import MenuIcon from "@mui/icons-material/Menu";
 export default function NavBar() {
   return (
     <div class="w-[100%]">
-      <link
-        href="https://fonts.googleapis.com/css?family=Roboto&display=optional"
-        rel="stylesheet"
-      ></link>
       <div className="content">
         <div className="logo" data-text="SUPERSEDE">
           <Link style={{ textDecoration: "none", color: "inherit" }} href="/">
