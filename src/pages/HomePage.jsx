@@ -7,6 +7,7 @@ import { useRouter } from "next/navigation";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import StarIcon from "@mui/icons-material/Star";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+import CustomDropdown from "@/components/CustomDropdown";
 
 const HomePage = () => {
   const router = useRouter();
@@ -29,7 +30,7 @@ const HomePage = () => {
   };
   return (
     <div className="container w-[100%]">
-      <div className="search-box max-w-[100%]">
+      <div className="search-box max-w-[710px]">
         <div className="search-text">
           <p className="search-prompt text-black">What's on your mind?</p>
           <div
@@ -44,9 +45,10 @@ const HomePage = () => {
           Display Prompts
         </button>
         <hr className="w-[100%]"></hr>
-        <div className="select-category mt-[20px]">
-          <SearchIcon className="searchIcon" />
-          <select
+        {/* <div className="select-category mt-[20px]"> */}
+        {/* <SearchIcon className="searchIcon" /> */}
+
+        {/* <select
             id="category"
             className="category-select"
             onChange={handleCategoryChange}
@@ -57,9 +59,11 @@ const HomePage = () => {
             <option value="itinerary">Itinerary</option>
             <option value="category2">Category 2</option>
             <option value="category3">Category 3</option>
-          </select>
-          <ArrowDropDownIcon className="absolute dropdownIcon" />
-        </div>
+          </select> */}
+
+        <CustomDropdown />
+        {/* <ArrowDropDownIcon className="absolute dropdownIcon" /> */}
+        {/* </div> */}
         <div className="no-category-text text-[16px] tracking-[1px] mt-[20px]">
           Can't find your category?
         </div>

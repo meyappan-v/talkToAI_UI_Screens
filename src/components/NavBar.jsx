@@ -6,7 +6,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 
 export default function NavBar() {
   return (
-    <div class="w-[100%]">
+    <div className="w-[100%]">
       <link
         href="https://fonts.googleapis.com/css?family=Roboto"
         rel="stylesheet"
