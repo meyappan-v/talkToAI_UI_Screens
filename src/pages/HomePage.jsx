@@ -2,10 +2,9 @@
 import React from "react";
 import "@/css/index.css";
 import Link from "next/link";
-import Image from "next/image";
-import starIcon from "/public/icon/icons8-star-48.png";
 import SearchIcon from "@mui/icons-material/Search";
 import { useRouter } from "next/navigation";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import StarIcon from "@mui/icons-material/Star";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 
@@ -29,12 +28,10 @@ const HomePage = () => {
     }
   };
   return (
-    <div className="container">
-      <div className="search-box">
+    <div className="container w-[100%]">
+      <div className="search-box max-w-[100%]">
         <div className="search-text">
-          <p className="search-prompt text-black">
-            What`&apos;`s on your mind?
-          </p>
+          <p className="search-prompt text-black">What's on your mind?</p>
           <div
             contentEditable="true"
             type="text"
@@ -46,7 +43,7 @@ const HomePage = () => {
         <button data-content="Display Prompts" className="display-button">
           Display Prompts
         </button>
-        <hr></hr>
+        <hr className="w-[100%]"></hr>
         <div className="select-category mt-[20px]">
           <SearchIcon className="searchIcon" />
           <select
@@ -64,7 +61,7 @@ const HomePage = () => {
           <ArrowDropDownIcon className="absolute dropdownIcon" />
         </div>
         <div className="no-category-text text-[16px] tracking-[1px] mt-[20px]">
-          Can`&apos;`t find your category?
+          Can't find your category?
         </div>
         <Link
           href="/"
@@ -81,9 +78,7 @@ const HomePage = () => {
       </div>
 
       <div className="promptsBox mt-[100px]">
-        <div className=" ml-[20px] underline tracking-[1px]">
-          Popular prompts:
-        </div>
+        <div className=" underline tracking-[1px]">Popular prompts:</div>
         <div className="prompts-container">
           <div className="promptElement ">
             <div className="Rank pl-1">Rank #1</div>
@@ -184,6 +179,12 @@ const HomePage = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="text-center">
+          <Link className="   no-underline text-[blue]" href="/">
+            Load full list
+          </Link>
+          <KeyboardArrowDownIcon className="relative text-[blue] top-[6px] text-[24px]" />
         </div>
       </div>
     </div>
