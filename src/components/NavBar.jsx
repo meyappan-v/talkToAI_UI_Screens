@@ -8,7 +8,7 @@ export default function NavBar() {
   return (
     <div className="w-[100%]">
       <link
-        href="https://fonts.googleapis.com/css?family=Roboto"
+        href="https://fonts.googleapis.com/css?family=Roboto&display=optional"
         rel="stylesheet"
       ></link>
       {/* <div className="content"> */}
