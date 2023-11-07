@@ -1,6 +1,6 @@
 import React from "react";
 import "@/css/index.css";
-import NavBar from "@/Components/NavBar";
+import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import Link from "next/link";
 import StarIcon from "@mui/icons-material/Star";
