@@ -8,7 +8,7 @@ import StarIcon from "@mui/icons-material/Star";
 const individualPrompt = () => {
   return (
     <>
-      <NavBar></NavBar>
+      {/* <NavBar /> */}
       <div>
         <div className="container">
           <div className="mb-[20px] max-w-[100%] mt-[60px]">
@@ -53,7 +53,7 @@ const individualPrompt = () => {
                 <div className="max-w-[100%]">
                   <form className="flex flex-col justify-between text-center h-[66%] max-w-[100%] relative l;eft-[calc(50%-200px)]">
                     <div className="mt-[20px]">
-                      <label for="fname" className="form-label">
+                      <label htmlFor="fname" className="form-label">
                         Going to
                       </label>
                       <input
@@ -64,7 +64,7 @@ const individualPrompt = () => {
                       />
                     </div>
                     <div className="mt-[20px]">
-                      <label for="lname" className="form-label">
+                      <label htmlFor="lname" className="form-label">
                         Going from
                       </label>
                       <input
@@ -75,7 +75,7 @@ const individualPrompt = () => {
                       />
                     </div>
                     <div className="mt-[20px]">
-                      <label for="fname" className="form-label">
+                      <label htmlFor="fname" className="form-label">
                         How many days?
                       </label>
                       <input
@@ -86,7 +86,7 @@ const individualPrompt = () => {
                       />
                     </div>
                     <div className="mt-[20px]">
-                      <label for="fname" className="form-label">
+                      <label htmlFor="fname" className="form-label">
                         Date Range
                       </label>
                       <input
@@ -97,7 +97,7 @@ const individualPrompt = () => {
                       />
                     </div>
                     <div className="mt-[20px]">
-                      <label for="fname" className="form-label">
+                      <label htmlFor="fname" className="form-label">
                         With whom
                       </label>
                       <input
@@ -108,7 +108,7 @@ const individualPrompt = () => {
                       />
                     </div>
                     <div className="mt-[20px]">
-                      <label for="fname" className="form-label">
+                      <label htmlFor="fname" className="form-label">
                         In the mood for
                       </label>
                       <input
@@ -119,7 +119,7 @@ const individualPrompt = () => {
                       />
                     </div>
                     <div className="mt-[20px]">
-                      <label for="fname" className="form-label">
+                      <label htmlFor="fname" className="form-label">
                         Must have
                       </label>
                       <input
@@ -130,7 +130,7 @@ const individualPrompt = () => {
                       />
                     </div>
                     <div className="mt-[20px]">
-                      <label for="fname" className="form-label">
+                      <label htmlFor="fname" className="form-label">
                         Good to have
                       </label>
                       <input
@@ -141,7 +141,7 @@ const individualPrompt = () => {
                       />
                     </div>
                     <div className="mt-[20px]">
-                      <label for="fname" className="form-label">
+                      <label htmlFor="fname" className="form-label">
                         Get creative
                       </label>
                       <input
@@ -162,7 +162,7 @@ const individualPrompt = () => {
           </div>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

@@ -12,7 +12,7 @@ import StarIcon from "@mui/icons-material/Star";
 const categoriesPage = () => {
   return (
     <>
-      <NavBar></NavBar>
+      {/* <NavBar></NavBar> */}
       <div>
         <div className="container max-w-[100%]">
           <div className="categoryNavigationParent max-w-[100%]">
@@ -165,7 +165,7 @@ const categoriesPage = () => {
           </div>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
