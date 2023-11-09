@@ -53,7 +53,7 @@ const CustomDropdown = () => {
 
       <div className="custom-dropdown">
         <div className="dropdown-header my-1" onClick={toggleDropdown}>
-          {selectedOption || "Select an option"}
+          {selectedOption || "Select a Category"}
         </div>
       </div>
       <ArrowDropDownIcon

@@ -40,7 +40,7 @@ const individualPrompt = () => {
                 </div>
                 <div className="prompt-details tracking-[1px]">
                   <div className="no-of-search-parameters">
-                    Search Parameters: 7
+                    Search Parameters: 9
                   </div>
                   <div className="text-right relative bottom-[19px]">
                     <div className="artist">By </div>

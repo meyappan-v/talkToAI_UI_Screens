@@ -4,6 +4,10 @@ html {
   font-weight: 100;
 }
 
+.formInput {
+  @apply w-full box-border max-w-[384px] px-3 py-2 border rounded-md shadow-sm 
+}
+
 .container {
   display: flex;
   flex-direction: column;
